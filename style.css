@@ -13,3 +13,16 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.button-container {
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+#button {
+    cursor: pointer;
+    
+    height: 4rem;
+    width: 7rem;
+}
