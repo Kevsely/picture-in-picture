@@ -11,7 +11,7 @@ async function loadMedia() {
         videoPlayer.onloadedmetadata = () => {
             videoPlayer.play();
         }
-    } catch (error) {
+    } catch (error  ) {
         console.log("Something went wrong", error);
     }
 }
